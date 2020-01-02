@@ -1,6 +1,6 @@
 
 function takeANumber(lineOfPeople){
-  var numberInLine = 1
+  var numberInLine = 1;
   lineOfPeople.push(numberInLine);
   var msg = `Welcome, You are number ${numberInLine} in line.`
   
