@@ -1,8 +1,8 @@
 
-function takeANumber(lineOfPeople, newName){
-  lineOfPeople.push(newName);
-  var numberInLine = lineOfPeople.length;
-  var msg = `Welcome, ${newName}. You are number ${numberInLine} in line.`
+function takeANumber(lineOfPeople){
+  var numberInLine = 1
+  lineOfPeople.push(numberInLine);
+  var msg = `Welcome, You are number ${numberInLine} in line.`
   
   return msg;
 }
